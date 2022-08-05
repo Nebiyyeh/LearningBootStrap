@@ -1,0 +1,75 @@
+.bg-dark-blue{
+    background-color: #073B4C;
+}
+
+/* I can use existing bootstrap class and override it
+Here I am using navbar-brand to 0verride some styles of the E-mail text
+font-family: ubuntu; this is coming from google fonts
+ */
+ .navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2em
+}
+
+@media(min-width: 768px){
+.img1{
+    transform: rotate(25deg);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+}
+
+@media(max-width: 767px){
+    .img1{
+        transform: rotate(0deg);
+        margin: 5%;
+        width: 90%;
+    }
+    }
+
+    .slogan{
+        font-family: 'Ubuntu';
+        font-size: 2em;
+        line-height: 1.5;
+        margin-bottom: 10%;
+    }
+
+    .download-links{
+        margin-left: 20%;
+        justify-content: end;
+        display: flex;
+    }
+    .fa-solid{
+        color: gold;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .comment{
+        padding: 15%;
+    }
+    .comment p{font-size: 1.5em;}
+
+    .img2{
+        width: 10%;
+        margin: 20px;
+    }
+
+    .pricing{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 2px solid white;
+    }
+
+    .footer{
+        color: white;
+    
+        padding: 30px;
+    }
+
+    .copyright{
+        margin-left: 60%;
+        font-size: 20px;
+        position: relative;
+    }
